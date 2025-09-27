@@ -59,12 +59,12 @@ const Contact = () => {
                     Instagram
                   </p>
                   <a 
-                    href="https://instagram.com/abhimanyupannu.design" 
+                    href="https://instagram.com/afterthought.flac.raw" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-large hover:text-secondary transition-fast"
                   >
-                    @abhimanyupannu.design
+                    @afterthought.flac.raw
                   </a>
                 </div>
               </div>
