@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom portfolio colors
+        "hero-accent": "hsl(var(--hero-accent))",
+        "section-divider": "hsl(var(--section-divider))",
+        "text-subtle": "hsl(var(--text-subtle))",
+      },
+      fontFamily: {
+        mono: ['SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', 'monospace'],
+      },
+      fontSize: {
+        'hero': 'var(--text-hero)',
+        'display': 'var(--text-display)',
+        'large': 'var(--text-large)',
+      },
+      spacing: {
+        'section': 'var(--space-section)',
+        'content': 'var(--space-content)',
+        'element': 'var(--space-element)',
       },
       borderRadius: {
         lg: "var(--radius)",
