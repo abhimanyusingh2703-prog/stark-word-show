@@ -1,10 +1,10 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Photography",
+      title: "Brand Identity",
       year: "2024",
-      category: "Visual Storytelling",
-      description: "Editorial and commercial photography exploring minimalism, composition, and light. Focus on creating timeless imagery through careful attention to detail and atmosphere."
+      category: "Visual Design",
+      description: "Comprehensive brand identity systems that blend strategic thinking with visual craft. Creating cohesive brand experiences across all touchpoints."
     },
     {
       title: "Minimal Bank",
