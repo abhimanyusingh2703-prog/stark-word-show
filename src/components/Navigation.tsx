@@ -7,8 +7,8 @@ const Navigation = () => {
   };
 
   return (
-    <nav className="fixed top-8 left-8 z-50 fade-in">
-      <div className="flex flex-col gap-6">
+    <nav className="fixed top-8 left-1/2 -translate-x-1/2 z-50 fade-in">
+      <div className="flex flex-col gap-6 items-center">
         <div className="geometric-square"></div>
         <div className="flex flex-row gap-4 text-sm uppercase tracking-wider">
           <button 
