@@ -1,6 +1,12 @@
 const Projects = () => {
   const projects = [
     {
+      title: "Photography",
+      year: "2024",
+      category: "Visual Storytelling",
+      description: "Editorial and commercial photography exploring minimalism, composition, and light. Focus on creating timeless imagery through careful attention to detail and atmosphere."
+    },
+    {
       title: "Minimal Bank",
       year: "2024",
       category: "Brand Identity",
