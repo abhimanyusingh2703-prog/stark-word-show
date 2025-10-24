@@ -60,7 +60,7 @@ const Projects = () => {
                     {project.year}
                   </span>
                 </div>
-                <h3 className="text-large font-bold mb-2">
+                <h3 className="text-large font-bold mb-2 border border-border bg-background/50 px-4 py-2 rounded-md inline-block">
                   {project.title}
                 </h3>
                 <p className="text-sm uppercase tracking-wider text-secondary">
