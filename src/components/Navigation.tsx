@@ -10,34 +10,34 @@ const Navigation = () => {
     <nav className="fixed top-8 left-8 z-50 fade-in">
       <div className="flex flex-col gap-6">
         <div className="geometric-square"></div>
-        <div className="flex flex-col gap-4 text-sm uppercase tracking-wider">
+        <div className="flex flex-row gap-4 text-sm uppercase tracking-wider">
           <button 
             onClick={() => scrollToSection('hero')}
-            className="text-left hover-lift text-text-subtle hover:text-foreground transition-fast"
+            className="hover-lift text-text-subtle hover:text-foreground transition-fast"
           >
             Home
           </button>
           <button 
             onClick={() => scrollToSection('about')}
-            className="text-left hover-lift text-text-subtle hover:text-foreground transition-fast"
+            className="hover-lift text-text-subtle hover:text-foreground transition-fast"
           >
             About
           </button>
           <button 
             onClick={() => scrollToSection('skills')}
-            className="text-left hover-lift text-text-subtle hover:text-foreground transition-fast"
+            className="hover-lift text-text-subtle hover:text-foreground transition-fast"
           >
             Skills
           </button>
           <button 
             onClick={() => scrollToSection('projects')}
-            className="text-left hover-lift text-text-subtle hover:text-foreground transition-fast"
+            className="hover-lift text-text-subtle hover:text-foreground transition-fast"
           >
             Work
           </button>
           <button 
             onClick={() => scrollToSection('contact')}
-            className="text-left hover-lift text-text-subtle hover:text-foreground transition-fast"
+            className="hover-lift text-text-subtle hover:text-foreground transition-fast"
           >
             Contact
           </button>
