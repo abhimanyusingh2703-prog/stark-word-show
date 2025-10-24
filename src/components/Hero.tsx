@@ -1,6 +1,5 @@
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center relative px-6">
+  return <section className="min-h-screen flex items-center justify-center relative px-6">
       <div className="max-w-6xl w-full">
         <div className="fade-in">
           <div className="geometric-square mb-8"></div>
@@ -11,9 +10,7 @@ const Hero = () => {
           </h1>
           <div className="flex items-center gap-4 mb-8">
             <div className="geometric-line w-16"></div>
-            <p className="text-large text-text-subtle uppercase tracking-wider">
-              Creative Designer
-            </p>
+            <p className="text-large text-text-subtle uppercase tracking-wider">JUNIOR CREATIVE DESIGNER</p>
           </div>
           <p className="text-large max-w-2xl leading-relaxed fade-in-delay-1">
             Crafting minimal, impactful design solutions that bridge 
@@ -30,8 +27,6 @@ const Hero = () => {
           <div className="geometric-square opacity-30"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

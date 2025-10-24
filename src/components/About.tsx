@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="space-section px-6">
+  return <section id="about" className="space-section px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div className="fade-in">
@@ -17,12 +16,7 @@ const About = () => {
               every decision is intentional, and every design tells a story.
             </p>
             
-            <p className="text-body text-text-subtle leading-relaxed">
-              With over 5 years of experience in creative design, I specialize in 
-              creating visual identities that resonate. My approach combines 
-              strategic thinking with aesthetic sensibility to deliver solutions 
-              that are both beautiful and effective.
-            </p>
+            <p className="text-body text-text-subtle leading-relaxed">I specialize in creating visual identities that resonate. My approach combines strategic thinking with aesthetic sensibility to deliver solutions that are both beautiful and effective.</p>
             
             <div className="space-y-4 fade-in-delay-2">
               <div className="flex items-center gap-4">
@@ -41,8 +35,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
